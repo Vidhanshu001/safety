@@ -1,6 +1,6 @@
 import cv2
-import streamlit as st
 from ultralytics import YOLO
+import streamlit as st
 
 
 cap= cv2.VideoCapture(0,cv2.CAP_DSHOW)
